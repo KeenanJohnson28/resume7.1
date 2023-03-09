@@ -1,0 +1,134 @@
+/* header section div basic reading ciew*/
+div.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 20px double#474554;
+    background-color: #6CBAA2;
+    max-height: 150px;
+    
+}
+/*picture of initial properties*/
+
+/*div.header-section-picture{
+   
+}*/
+img.pic{
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+/**/
+
+/*Header section contact info*/
+div.header-section-contact-info{
+    padding-right: 350px;
+    min-height: 100px;
+
+}
+/* Header section Name */
+div.header-section-name{
+    min-width: 200px;
+    min-height: 150px;
+    padding-right: 300px;
+    padding-left: 100px;
+}
+/*Bottom content div*/
+div.bottom-content{
+    display: flex;
+    flex-direction: column;
+
+    float: inline-start;
+    font-size: 20px;
+    text-align: left;
+    align-items: no
+    background-color: #CFF7EC;
+    justify-content: space-between;
+    
+}
+
+
+
+
+/*column headings*/
+p2{
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.p2{
+    font-size: 25px;
+    font-weight: bold;
+}
+/*main content header*/
+.p3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*main content paragraphs*/
+.p4{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+div.exp{
+width: 50%;
+}
+
+div.profile{
+    width: 50%;
+    flex-direction: row;
+
+}
+
+div.qual{
+    width: 50%;
+
+}
+
+div.skillset{
+    width: 50%;
+    flex-direction: row;
+}
+div.jobs{
+    width: 50%;
+
+}
+div.feedbackform{
+    width: 50%;
+
+}
+
+.some-page-wrapper {
+    margin: 15px;
+    background-color: red;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1
+  }
+  
+  .orange-column {
+    background-color: orange;
+    height: 100px;
+  }
+  
+  .blue-column {
+    background-color: blue;
+    height: 100px;
+  }
